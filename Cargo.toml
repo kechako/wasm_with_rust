@@ -1,0 +1,15 @@
+[package]
+name = "wasm_with_rust"
+version = "0.1.0"
+authors = ["Ryosuke Akiyama <r@554.jp>"]
+edition = "2018"
+description = "WebAssembly with Rust"
+repository = "https://github.com/kechako/wasm_with_rust"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+image = "0.22"
